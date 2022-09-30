@@ -180,35 +180,35 @@ class RCWindow(Window):
 
         
      
-    def fwd_plus():
+    def fwd_plus(self):
         # Fill in your own code here
         pass
 
-    def fwd_minus():
+    def fwd_minus(self):
         # Fill in your own code here
         pass
 
-    def left_plus():
+    def left_plus(self):
         # Fill in your own code here
         pass
 
-    def left_minus():
+    def left_minus(self):
         # Fill in your own code here
         pass
 
-    def right_plus():
+    def right_plus(self):
         # Fill in your own code here
         pass
 
-    def right_minus():
+    def right_minus(self):
         # Fill in your own code here
         pass
 
-    def back_plus():
+    def back_plus(self):
         # Fill in your own code here
         pass
 
-    def back_minus():
+    def back_minus(self):
         # Fill in your own code here
         pass
 
@@ -272,8 +272,6 @@ class GUI(ttk.Frame):
         self.btn2 = ttk.Button(self, text='Remote Control', command=self.openremotecontrol, width=300, state="disabled")
         self.btn2.grid(row=4, column=0, sticky='n')
         
-        self.speed_val = ttk.Label(self, text=speed)
-        self.speed_val.grid(row=5, column=0, sticky='s')
         
         # Padding
         for child in self.winfo_children():
