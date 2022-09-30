@@ -1,4 +1,4 @@
-# Assignment 11 - GUI
+# Assignment 8 - GUI
 ## Repository for Design (E) - 344's Assignment 8: Python GUI with Serial Interface
 
 Please follow the following guide to download and start coding your GUI. It is important that you have the latest version of Python on your computer before carrying on.
