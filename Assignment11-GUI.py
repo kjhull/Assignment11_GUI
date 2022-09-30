@@ -255,8 +255,8 @@ class GUI(ttk.Frame):
 
         var1 = StringVar(self)
         
-        #self.combo1 = ttk.Combobox(self, textvariable=var1, values=com_ports)
-        self.combo1 = ttk.Combobox(self, textvariable=var1, values=["COM12"])
+        
+        self.combo1 = ttk.Combobox(self, textvariable=var1, values=com_ports)
         self.combo1.grid(row=1, column=0, sticky='ws')
 
         self.btnref = ttk.Button(self, text="Refresh COM Ports", command=self.refresh)
