@@ -17,7 +17,7 @@ Open the command prompt and type the following:
 pip install -r requirements.txt
 ```
 
-If you would like to just test out the GUI, go to the folder with your cloned repo and type the following:
+To test out the GUI, go to the folder with your cloned repo and type the following in the command prompt:
 ```
 python Assignment11-GUI.py
 ```
@@ -27,4 +27,4 @@ From here, you can edit the code under the SPECIFIC commented out sections.
 
 Please don't alter or delete any other code or you will get errors and spend more time debugging the GUI than trying to setup serial communication with your car.
 
-If you have any problems PLEASE post it under issues and I will try address them ASAPs
+If you have any problems PLEASE post it under issues and I will try address them ASAP
