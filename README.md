@@ -7,7 +7,7 @@ https://www.python.org/downloads/
 If you have Github command line you can clone the repo by selecting the folder where you want to save the repo, opening the command line and typing 
 
 ```
-gh repo clone kjhull/Assignment11_GUI
+gh repo clone kjhull/Assignment8_GUI
 ```
 Next, you need to make sure that all the correct packages are installed. Provided in the repo is a package list called
 > requirements.txt
@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 To test out the GUI, go to the folder with your cloned repo and type the following in the command prompt:
 ```
-python Assignment11-GUI.py
+python Assignment8-GUI.py
 ```
 A window should open where you can choose the COM port associated with your Bluetooth dongle.
 
